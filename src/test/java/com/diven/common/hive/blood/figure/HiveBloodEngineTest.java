@@ -23,6 +23,7 @@ public class HiveBloodEngineTest extends BaseTest{
 		printJsonString(tableBlood);
 		GraphUI.show(tableBlood);
 		System.in.read();
+		System.out.println();
 	}
 	
 	/**

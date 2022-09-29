@@ -1,12 +1,8 @@
 package com.diven.common.hive.blood.api;
 
-import java.util.List;
+import com.diven.common.hive.blood.model.*;
 
-import com.diven.common.hive.blood.model.FieldBlood;
-import com.diven.common.hive.blood.model.HiveField;
-import com.diven.common.hive.blood.model.HiveTable;
-import com.diven.common.hive.blood.model.SQLResult;
-import com.diven.common.hive.blood.model.TableBlood;
+import java.util.List;
 
 
 /**
