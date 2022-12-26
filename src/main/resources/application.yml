@@ -1,0 +1,19 @@
+prop:
+  param1: laowang
+openlookeng:
+  url: 'http://10.180.59.227:8090/v1/catalog/'
+
+spring:
+  application:
+    name: CHNTNDW-WEBSQL
+  #配置数据源
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.180.59.225:3716/editserver_sql?characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2B8 #jdbc:mysql://120.52.99.112:13306/k8s?characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 1qaz!QAZ
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
